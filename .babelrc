@@ -3,10 +3,24 @@
   "plugins": [
     "transform-decorators-legacy",
     [
+      "inline-import",
+      {
+        "extensions": [".css"]
+      }
+    ],
+    [
       "import",
       {
         "libraryName": "antd",
         "style": "css"
+      }
+    ],
+    [
+      "styled-components",
+      {
+        "minify": false,
+        "ssr": true,
+        "displayName": true
       }
     ]
   ]
