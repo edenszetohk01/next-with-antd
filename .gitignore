@@ -61,6 +61,7 @@ typings/
 
 # Next.js (https://github.com/zeit/next.js/)
 .next
+out/
 
 # dotnev (https://github.com/motdotla/dotenv)
 .env*
